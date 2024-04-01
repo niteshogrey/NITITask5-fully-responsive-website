@@ -1,0 +1,49 @@
+section{
+    padding: 2rem 9%;
+}
+
+.home{
+    /* background: url('/public/stand.jpg') no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+
+.home .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.rem;
+}
+
+.home .row .content{
+    flex: 1 1 42rem;
+}
+
+.home .row .book-slider{
+    flex: 1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+
+.home .row .book-slider a img{
+    height: 20rem;
+    margin: 2rem;
+    box-shadow: 10px 10px 10px  #888888;
+}
+
+.home .row .book-slider a:hover img{
+    transform: scale(.9);
+}
+
+.home .row .content h3{
+    color: var(--black);
+    font-size: 3.5rem;
+}
+
+.home .row .content p{
+    color: var(--light-color);
+    font-size: 1.5rem;
+
+}

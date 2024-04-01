@@ -1,0 +1,30 @@
+.icons-container{
+    padding: 3rem;
+    background: #e1e1e1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1.5rem;
+}
+.icons-container .icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.icons-container .icons i{
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.icons-container .icons h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+
+}
+
+.icons-container .icons p{
+    font-size: 1rem;
+    color: var(--light-color);    
+}
